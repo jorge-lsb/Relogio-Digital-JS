@@ -1,0 +1,59 @@
+@font-face{
+    font-family: DS-Digital;
+    src: url('DS-DIGI.TTF');
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.div_relogio{
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 40%;
+    height: 185px;
+    background-color: black;
+    border: 5px grey solid;
+    color: red;
+    font-size: 130px;
+    text-align: center;
+    font-family: DS-Digital;
+    padding-top: 3%;
+    border-radius: 1%;
+}
+
+@media(max-width: 375px){
+
+    .div_relogio{
+        width: 70%;
+        height: 99px;
+        font-size: 66px;
+        padding-top: 7%;
+    }
+    
+}
+
+@media(max-width: 425px){
+
+    .div_relogio{
+
+        width: 70%;
+        height: 99px;
+        font-size: 66px;
+        padding-top: 7%;
+
+    }
+}
+
+@media(max-width: 768px){
+
+    .div_relogio{
+
+        width: 60%;
+        height: 130px;
+        font-size: 100px;
+        padding-top: 5%;
+
+    }
+}
