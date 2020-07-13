@@ -23,29 +23,6 @@
     border-radius: 1%;
 }
 
-@media(max-width: 375px){
-
-    .div_relogio{
-        width: 70%;
-        height: 99px;
-        font-size: 66px;
-        padding-top: 7%;
-    }
-    
-}
-
-@media(max-width: 425px){
-
-    .div_relogio{
-
-        width: 70%;
-        height: 99px;
-        font-size: 66px;
-        padding-top: 7%;
-
-    }
-}
-
 @media(max-width: 768px){
 
     .div_relogio{
@@ -56,4 +33,27 @@
         padding-top: 5%;
 
     }
+}
+
+@media(max-width: 425px){
+    
+    .div_relogio{
+        
+        width: 70%;
+        height: 99px;
+        font-size: 66px;
+        padding-top: 7%;
+        
+    }
+}
+
+@media(max-width: 375px){
+
+    .div_relogio{
+        width: 70%;
+        height: 99px;
+        font-size: 66px;
+        padding-top: 7%;
+    }
+    
 }
